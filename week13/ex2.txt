@@ -1,0 +1,15 @@
+Recovery:
+It is the worst strategy because OS lets deadlock to appear and then deal with it in different possible ways.
+It is better to use this strategy when deadlock are unavoidable.
+
+Prevention:
+Deadlock prevention algorithms ensure that at least one of the necessary conditions is met.
+Most of prevention algorithms use resources poorly. 
+Hence, it is better to use it when resource requirements are not big.
+
+
+Avoidance:
+Most deadlock avoidance algorithms require each process to report in advance the maximum amount of each type 
+of resource it may need. Based on all this information, we can decide whether a process should wait for a resource
+or not, and thus avoid the possibility of a cyclical waiting.
+Is is better to use this strategy when resource requirements are big.
